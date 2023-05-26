@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Fragment.Fragment_PlayList">
+
+    <TextView
+        android:id="@+id/tvPlayList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="ÂM NHẠC LÔI CUỐN"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/lvPlayList"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPlayList" />
+
+    <TextView
+        android:id="@+id/tvMorePL"
+        android:paddingStart="8dp"
+        android:drawableLeft="@drawable/iconmoreplaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvPlayList"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#E4DADA"
+        android:drawablePadding="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Xem thêm playlists"
+        android:textColor="#101010" />
+
+</RelativeLayout>
